@@ -1,0 +1,28 @@
+<h1 id="how-to-make-a-portable-minecraft-usb-drive">How to make a portable Minecraft USB drive</h1>
+<h2 id="requirments">Requirments</h2>
+<ol>
+<li>a USB Drive</li>
+<li>a Windows computer</li>
+</ol>
+<h2 id="before-we-begin">Before we begin</h2>
+<p>Before we begin, we need to format the usb drive with
+NTFS. <br />
+Plug in your USB Drive, and open file explorer. Now, right click on the USB drive and select &quot;Format&quot;, and format the USB drive with NTFS.</p>
+<h2 id="downloading-the-launcher">Downloading the launcher</h2>
+<p>First, we need to download the mineshafter launcher.
+<br />
+Go to <a href="https://mineshafter.info/downloads">https://mineshafter.info/downloads</a>, download the launcher and copy it the USB drive.
+create a folder called &quot;data&quot; in your USB drive.
+now, press the windows key and R, type in &quot;%appdata%&quot; and press enter. copy the .minecraft folder into the data folder in your USB drive.</p>
+<h2 id="installing-portable-java">Installing portable Java</h2>
+<p>go to <a href="https://portableapps.com/apps/utilities/java_portable">https://portableapps.com/apps/utilities/java_portable</a>, download the portable java installer, run it.and click &quot;OK&quot; and &quot;next&quot; until you see the following screen: <img src="https://i.imgur.com/gKjnjvz.png" alt="alt text">
+Click on &quot;browse&quot; and choose your USB drive.
+click on &quot;install&quot; and wait for it finish installing.</p>
+<h2 id="creating-the-start-batch-script">Creating the start batch script</h2>
+<p>open notepad, type in the following:</p>
+<pre><code>@echo off
+<span class="hljs-keyword">set</span> APPDATA=<span class="hljs-keyword">data</span>
+<span class="hljs-keyword">start</span> <span class="hljs-keyword">Java</span>/<span class="hljs-keyword">bin</span>/javaw.exe -jar Mineshafter-launcher.jar
+</code></pre><p>and press CTRL + s, save it to the USB drive, make sure &quot;Save as type&quot; is set to &quot;All files&quot; and the filename is set to &quot;start.bat&quot;.</p>
+<h2 id="running-the-game-from-the-usb-drive">Running the game from the usb drive</h2>
+<p>Just plug it in and run start.bat</p>
