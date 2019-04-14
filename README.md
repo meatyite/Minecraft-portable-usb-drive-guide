@@ -14,7 +14,7 @@ Go to https://mineshafter.info/downloads, download the launcher and copy it the 
 create a folder called "data" in your USB drive.
 now, press the windows key and R, type in "%appdata%" and press enter. copy the .minecraft folder into the data folder in your USB drive.
 ## Installing portable Java
-go to https://portableapps.com/apps/utilities/java_portable, download the portable java installer, run it.and click "OK" and "next" until you see the following screen: <br /> ![alt text](https://i.imgur.com/gKjnjvz.png)
+go to https://portableapps.com/apps/utilities/java_portable, download the portable java installer, run it.and click "OK" and "next" until you see the following screen: <br /> ![alt text](https://i.imgur.com/gKjnjvz.png) <br />
 Click on "browse" and choose your USB drive.
 click on "install" and wait for it finish installing.
 ## Creating the start batch script
